@@ -80,6 +80,10 @@ main{
     font-size: 2em;
 }
 
+.container p{
+    padding: 0 15px;
+}
+
 section.module p{
     margin-bottom: 40px;
 }
