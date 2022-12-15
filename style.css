@@ -156,34 +156,37 @@ section.module.parallax3{
 
 footer{
     display: flex;
-    background-color: #71A1ED;
-    color: #e9e7d9;
-    padding: 10px 0;
+    flex-wrap: wrap;
+    padding: 2% 4% 0% 4%;
     margin: auto;
-    width: 100%;
-}
-
-footer h4{
-    display: flex;
+    background-color: #71A1ED;
     color: #e9e7d9;
 }
 
 .colum{
-    padding-left: 3em;
-    margin: auto;
+    display: block;
     width: 50%;
+    word-wrap: break-word;
+    float: ;
 }
 
 .colum h4{
-    padding-bottom: 1em;
     text-transform: uppercase;
+    color: #e9e7d9;
+    padding-bottom: 2%;
+}
+
+.colum ul{
+    list-style: none;
 }
 
 .colum li{
-    padding-bottom: 0.5em;
-    text-transform: capitalize;
+    padding-bottom: 1%;
+    list-style: inside none;
+    
 }
 
-.colum li:last-child{
-    padding-bottom: 0;
+.colum li:hover{
+    padding-left: 10px;
+    transition: all 0.5s ease;
 }
